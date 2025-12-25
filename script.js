@@ -6,7 +6,7 @@
     const hour = new Date().getHours();
     let timeGreeting;
 
-    if (hour < 5) timeGreeting = "Burning the midnight oil, huh?";
+    if (hour < 5) timeGreeting = "Embrace the late night grind nightowl!";
     else if (hour < 12) timeGreeting = "Good morning! Perfect time to debug life and code.";
     else if (hour < 18) timeGreeting = "Good afternoon! One more problem, one more proof.";
     else timeGreeting = "Good evening! Great time for CP and side projects.";
